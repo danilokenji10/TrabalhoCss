@@ -1,0 +1,127 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida Console";
+}
+
+#container{
+	width: 80%;
+	position: relative;
+	left: 10%;
+}
+
+#cabecalho {
+	height: 200px;
+	border: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: black;
+}
+
+#logoFunny{
+	width: 900px;
+	margin: auto;
+}
+
+#menu{
+	height: 20px;
+	background: #1a8cff;
+	border: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: black;
+}
+
+#menu a{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	margin-left: 10px;
+}
+
+#conteudo {
+	position: relative;
+}
+
+#banner{
+	width: 540px;
+	border: 3px;
+	border-style: solid;
+	border-color: black;
+	position: relative;
+	margin: auto;
+	margin-top: 10px;
+}
+
+#divulgacao{
+	height: 120px;
+	width: 540px;
+}
+
+#divTexto{
+	display: table;
+	position: relative;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+#texto1{
+	width: 50%;
+	text-align: justify;
+	border: 2px;
+	border-right-style: solid;
+	border-right-color: black;
+	padding-right: 10px;
+	float: left;
+}
+
+#texto2{
+	width: 47%;
+	text-align: justify;
+	margin-left: 15px;
+	float: left;
+}
+
+#formContato{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 70%;
+	border: 2px;
+	border-style: solid;
+	border-color: black;
+	padding: 5px;
+	float: right;
+}
+
+#rodape {
+	border: 2px;
+	border-top-style: solid;
+	border-top-color: black;
+	margin-top: 10px;
+}
+
+#divRodape{
+	width: 380px;
+	position: relative;
+	margin: auto;
+	margin-top: 10px;
+}
+
+#divLogoCEP{
+	width: 80px;
+	position: absolute;
+	left: 0;
+}
+
+#logCEP{
+	height: 80px;
+	width: 80px;
+}
+
+#infoCEP{
+	width: 300px;
+	text-align: center;
+	position: absolute;
+	right: 0;
+	top: 17px;
+	font-size: 15px;
+}
+
